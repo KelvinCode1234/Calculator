@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -19,17 +19,17 @@
     border-radius: 10px;
 }
 .Calculator form input {
-    border: 0;
-    outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(116, 116, 116, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
-    background: transparent;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px;
+   border: 0;
+   outline: 0;
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.5);
+   background: transparent;
+   font-size: 20px;
+   color: #fff;
+   cursor: pointer;
+   margin: 10px;
 } 
 form .display {
     display: flex;
@@ -80,14 +80,14 @@ form .display:hover input {
     }
     .Calculator {
         background: #171f2b;
-        padding: 20px;
+        padding: 40px 30px;
         border-radius: 10px;
     }
     .Calculator form input {
-        border: 0;
+        border: none;
         outline: 0;
         width: 50px;
-        height: 50px;
+        height: 60px;
         border-radius: 10px;
         box-shadow: -8px -8px 15px rgba(116, 116, 116, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
         background: transparent;
@@ -106,6 +106,8 @@ form .display:hover input {
         flex: 1;
         font-size: 45px;
         box-shadow: none;
+        height: 85px;
+        border: 1px solid rgb(60, 60, 60);
      }
      form input.equal {
         width: 125px;
@@ -123,14 +125,14 @@ form .display:hover input {
      .logo::first-letter {
         color: #ff0040;
      }
-    .Calculator form input:hover {
-        color: #ff0040;
-        transform: transition 0.5 ease;
-        transform: translateY(-3px);
-     }
-    form .display:hover input {
-        color: #fff;
-     }
+   .Calculator form input:hover {
+      color: #ff0040;
+      transform: transition 0.5 ease;
+      transform: translateY(-3px);
+   }
+   form .display:hover input {
+      color: #fff;
+   }
      
 
 }
